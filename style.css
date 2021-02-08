@@ -1,0 +1,173 @@
+/*coded by animeshraj*/
+/*read the code carefully and understand it B'coz*/
+/*It's all about CSS (And U too (;)*/
+
+#trngle {
+	width: 0;
+	height: 0;
+	border-left: 75px solid transparent;
+	border-right: 75px solid transparent;
+	border-bottom: 150px solid gray;
+	float: left;
+    margin-left: 100px;
+
+}
+p{
+	display: none;
+	padding-top: 50px;
+
+	
+}
+div:hover p {
+	display: initial;
+}
+
+
+
+
+
+#sqr {
+	background-color: gray;
+	padding-left: 75px;
+	padding-top: 75px;
+	padding-right: 75px;
+	padding-bottom: 75px;
+	width: 0;
+    margin-left: 150px;
+	float: left;
+	max-height: 0;
+}
+
+#rect {
+	background-color: gray;
+	padding-left: 150px;
+	padding-right: 150px;
+	padding-top: 75px;
+	padding-bottom: 75px;
+	width: 0;
+	float: left;
+	margin-left: 150px;
+	max-height: 0;
+}
+
+#cir {
+	background-color: gray;
+	padding-left: 75px;
+	padding-right: 75px;
+	padding-top: 75px;
+	padding-bottom: 75px;
+	width: 0;
+	border-radius: 50%;
+	float: left;
+	margin-left: 100px;
+	max-height: 0;
+}
+
+#oval_vertical {
+	background-color: gray;
+	padding-left: 37.5px;
+	padding-top: 75px;
+	padding-right: 37.5px;
+	padding-bottom: 75px;
+	border-radius: 50%;
+	/*here I changed the width to 25 from 0 b'coz at 0px it looks abnormal, U can test it*/
+	width: 25px;
+	/*U might have understood now*/
+	float: left;
+	margin-left: 100px;
+	max-height: 0;
+}
+
+#oval_horizontal {
+	background-color: gray;
+	padding-left: 75px;
+	padding-top: 37.5px;
+	padding-right: 75px;
+	padding-bottom: 37.5px;
+	border-radius: 50%;
+	height: 50px;
+	width: 25px;
+	float: left;
+	margin-left: 180px;
+}
+
+#trapezium {
+
+	width: 150px;
+	float: left;
+	margin-left: 30px;
+	border-left: 75px solid transparent;
+	border-right: 75px solid transparent;
+	border-bottom: 150px solid gray;
+	margin-left: 100px;
+	max-height: 0;
+	
+}
+
+#parallelogram {
+	width: 250px;
+	height: 125px;
+	transform: skew(20deg);
+	background: gray;
+	float: left;
+	margin-left: 100px;
+}
+ div {
+ 	margin-top: 90px;
+    font-weight: bolder;
+    font-size: 20px;
+    font-family: cursive;
+    color: yellow;
+ }
+
+/*Additional CSS for decoration ↓*/
+
+#zero {
+	color: orange;
+}
+#one {
+	color: blue;
+}
+
+#two {
+	color: yellow;
+}
+
+#three {
+	color: green;
+}
+#four {
+	color: red;
+}
+#five {
+	color: brown;
+}
+#six {
+	color: magenta;
+}
+#seven {
+	color: lightgreen;
+}
+
+span {
+	font-weight: bolder;
+	font-family: cursive;
+	width: 100px;
+	font-size: 50px;
+	 text-shadow:
+    -2px -2px 0 #000,
+    2px -2px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000; 
+	margin-left: 5px;
+}
+
+body{
+	background-color: turquoise;
+}
+
+/*Have a nice DEV Journey!*/
+
+
+
+
